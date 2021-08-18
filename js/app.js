@@ -40,10 +40,12 @@ function verifyPin() {
 
         successMessage.style.display = 'block';
         failError.style.display = 'none';
+        alert('Yahoooo!! You have done correctly boss.');
 
     }
     else {
         successMessage.style.display = 'none';
         failError.style.display = 'block';
+        alert('Oppss!! Wrong number boss.')
     }
 }
