@@ -37,15 +37,16 @@ function verifyPin() {
     const successMessage = document.getElementById('notify-success');
     const failError = document.getElementById('notify-fail');
     if (pin == typedNumbers) {
-
+        alert('Yahoooo!! You have done correctly boss.');
         successMessage.style.display = 'block';
         failError.style.display = 'none';
-        alert('Yahoooo!! You have done correctly boss.');
+
 
     }
     else {
+        alert('Oppss!! Wrong number boss.');
         successMessage.style.display = 'none';
         failError.style.display = 'block';
-        alert('Oppss!! Wrong number boss.')
+
     }
 }
